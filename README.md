@@ -1,5 +1,6 @@
 # Developing Django on Repl.it
 https://repl.it/@IrisDroidology/Django-Template#README.md
+Issue for installation: https://github.com/Gizmotronn/django-start/issues/4
 - Fork this template to get started
 - Simply hit run to start the server
 - The server will autoreload as needed. You don't need to restart the server manually.
