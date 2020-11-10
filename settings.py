@@ -37,6 +37,8 @@ INSTALLED_APPS = [
     'django.contrib.sessions',
     'django.contrib.messages',
     'django.contrib.staticfiles',
+    'puppies',
+    'rest_framework'
 ]
 
 MIDDLEWARE = [
@@ -120,3 +122,10 @@ USE_TZ = True
 STATIC_URL = '/static/'
 ALLOWED_HOSTS = ['*']
 X_FRAME_OPTIONS = '*'
+
+REST_FRAMEWORK = {
+    # Use Django's standard `django.contrib.auth` permissions,
+    # or allow read-only access for unauthenticated users.
+    'DEFAULT_PERMISSION_CLASSES': [],
+    'TEST_REQUEST_DEFAULT_FORMAT': 'json'
+}
